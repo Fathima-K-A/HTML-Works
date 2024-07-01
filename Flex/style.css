@@ -1,0 +1,18 @@
+.parent{
+    width: 90%;
+    margin-left: 5%;
+   
+}
+h1{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: chartreuse;
+    color: cornsilk;
+}
+.size{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid black;
+}

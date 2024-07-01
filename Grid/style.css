@@ -1,0 +1,27 @@
+.wrapper{
+    width: 800px;
+    height: 500px;
+    background-color: violet;
+    display: grid;
+    gap: 6px;
+    /* we can also apply colum or row-gap as we want */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-colums: repeat(4,1fr)  we can also use like this*/
+    /* also arrange in rows */
+}
+.bg{
+    background-color:blanchedalmond ;
+    /* border: 2px solid black; */
+}
+.wrapper :nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.wrapper :nth-child(3){
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.wrapper :nth-child(8){
+    grid-column-start: 3;
+    grid-column-end: 5;
+}

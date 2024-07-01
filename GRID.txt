@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="ob red">1</div>
+        <div class="ob red">2</div>
+        <div class="ob skin">3</div>
+        <div class="ob red">4</div>
+        <div class="ob violet">5</div>
+        <div class="ob blue">6</div>
+        <div class="ob orange">7</div>
+        <div class="ob darkblue">8</div>
+        <div class="ob color">9</div>
+    </div>
+    
+</body>
+</html>
+
+
+<!-- CSS  -->
+
+
+.wrapper{
+    margin-left: 100px;
+    width: 600px;
+    height: 500px;
+    background-color: blanchedalmond;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}
+.ob{
+    background-color: blueviolet;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.wrapper :nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.wrapper :nth-child(2){
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.wrapper :nth-child(3){
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.wrapper :nth-child(5){
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.wrapper :nth-child(7){
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.wrapper :nth-child(8){
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.red{
+    background-color: red;
+}
+.skin{
+    background-color: antiquewhite;
+}
+.violet{
+    background-color:  darkmagenta;
+}
+.orange{
+    background-color: orange;
+}
+.blue{
+    background-color: skyblue;
+}
+.darkblue{
+    background-color: darkblue;
+}
+.color{
+    background-color: antiquewhite;
+}

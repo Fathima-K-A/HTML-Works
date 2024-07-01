@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.first{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    margin-left: 600px; 
+
+}
+.second{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    margin-top: 100px;
+    /* for making the box lower  */
+}
+.third{
+   margin-left: auto;
+   margin-top: 0;
+}

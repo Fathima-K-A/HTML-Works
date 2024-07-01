@@ -1,0 +1,21 @@
+body{
+    background-color:lightblue;
+}
+h1{
+    background-color: blue;
+    text-align: center;
+    border: 2px solid red;
+}
+#head{
+    background-color: lightseagreen;
+    border-color: black;
+    border-style: dotted;
+}
+.head{
+    background-color: crimson;
+}
+
+/* External css */
+/* id name in css should be   #idname{property:value} */
+/* class name in scc should be   .classname{property:value} */
+/* tagname in css    tagname{property:value} */
